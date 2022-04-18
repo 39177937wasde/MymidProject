@@ -72,6 +72,13 @@
         android:id="@+id/line9"
         app:layout_constraintGuide_percent="0.9"></androidx.constraintlayout.widget.Guideline>
 
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/line10"
+        app:layout_constraintGuide_percent="0.2"></androidx.constraintlayout.widget.Guideline>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -111,19 +118,19 @@
         android:layout_height="wrap_content"
         android:src="@drawable/flyfly1"
         app:layout_constraintBottom_toBottomOf="@+id/line2"
-        app:layout_constraintRight_toRightOf="@+id/line3"/>
+        app:layout_constraintRight_toRightOf="@+id/line8"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/flyfly1"
         app:layout_constraintBottom_toTopOf="@+id/line0"
-        app:layout_constraintRight_toRightOf="@+id/line3"/>
+        app:layout_constraintLeft_toLeftOf="@+id/line8"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/flyfly1"
         app:layout_constraintTop_toBottomOf="@+id/line0"
-        app:layout_constraintLeft_toLeftOf="@+id/line3"/>
+        app:layout_constraintRight_toRightOf="@+id/line3"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -135,7 +142,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/snailwalk1"
         app:layout_constraintTop_toBottomOf="@+id/line1"
-        app:layout_constraintLeft_toLeftOf="@+id/line4"/>
+        app:layout_constraintLeft_toLeftOf="@+id/line10"/>
 
 
     <Button
